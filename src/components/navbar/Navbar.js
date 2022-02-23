@@ -12,9 +12,9 @@ export const Navbar = () => {
       </div>
 
       <div className="bg-slate-400 flex items-center">
-        <FaBeer className=""></FaBeer>
-        <BiBong className=""></BiBong>
-        <BiBoltCircle></BiBoltCircle>
+        <FaBeer size={50} className=""></FaBeer>
+        <BiBong size={50} className=""></BiBong>
+        <BiBoltCircle size={50}></BiBoltCircle>
       </div>
     </nav>
   );
